@@ -1,9 +1,17 @@
+// Custom Types
+type id = string | number
+
+let uId: id = 123
+uId = '123'
+
 type User = {
     firstName: string,
     age: number
-    // optional
+
+    // Optional
     nickname?: string
-    // function return function
+
+    // Function return function (you actually can go () => () => () => ... xD)
     getPass: () => () => string
 }
 

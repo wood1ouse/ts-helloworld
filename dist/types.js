@@ -41,5 +41,3 @@ const inf = () => {
     while (true) {
     }
 };
-let uId = 123;
-uId = '123';

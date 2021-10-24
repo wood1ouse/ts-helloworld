@@ -1,4 +1,6 @@
 "use strict";
+let uId = 123;
+uId = '123';
 let currentUser = {
     firstName: 'Yura',
     age: 27,

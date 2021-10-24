@@ -1,3 +1,5 @@
+import { CircleUtils } from './namespaces';
+
 // Primitives
 let num: number = 100
 let str: string = 'hey'
@@ -54,8 +56,5 @@ const inf = (): never => {
     }
 }
 
-// Custom Types
-type id = string | number
-
-let uId: id = 123
-uId = '123'
+// Namespace import, check namespaces.ts
+CircleUtils.areaOfCircle(3)
